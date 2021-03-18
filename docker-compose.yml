@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  static-web-server:
+    image: nginx
+    container_name: static-web-server
+    ports:
+      - "80:80"
+    volumes:
+      - "./conf:/etc/nginx/conf.d"
+      - "./images:/opt/app/images"
