@@ -1,5 +1,2 @@
 .DS_Store
 .vscode/
-
-./nginx-cache/*
-./nginx-pid/*
